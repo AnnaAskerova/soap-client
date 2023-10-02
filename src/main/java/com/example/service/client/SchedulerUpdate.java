@@ -28,6 +28,5 @@ public class SchedulerUpdate {
                 repository.deleteById(id);
             }
         });
-        repository.findAll().forEach(System.out::println);
     }
 }
