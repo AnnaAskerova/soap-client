@@ -28,5 +28,6 @@ public class SchedulerUpdate {
                 repository.deleteById(id);
             }
         });
+        System.out.println(repository.findAll());
     }
 }
